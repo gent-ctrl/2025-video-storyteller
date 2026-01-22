@@ -1,0 +1,11 @@
+{
+  "name": "gt-video-storyteller",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI Video Storyteller - Full Stack App",
+  "dependencies": {
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1",
+    "@google/generative-ai": "^0.21.0"
+  }
+}

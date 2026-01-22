@@ -1,0 +1,31 @@
+{
+  "name": "2025-video-storyteller-backend",
+  "version": "1.0.0",
+  "description": "Backend API for 2025 Video Storyteller with Gemini 3 Pro",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "dev:simple": "nodemon server-simple.js",
+    "dev:gemini3": "nodemon server-gemini3.js"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.13.0",
+    "@google-cloud/vertexai": "^1.7.0",
+    "@google/generative-ai": "^0.24.1",
+    "bull": "^4.16.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "redis": "^4.7.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

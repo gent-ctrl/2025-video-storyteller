@@ -1,0 +1,20 @@
+{
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "outputDirectory": "frontend/dist",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api/:path*"
+    }
+  ],
+  "functions": {
+    "api/upload.js": {
+      "maxDuration": 300,
+      "memory": 3008
+    },
+    "api/**/*.js": {
+      "maxDuration": 60
+    }
+  }
+}

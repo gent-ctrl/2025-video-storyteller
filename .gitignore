@@ -1,0 +1,22 @@
+node_modules/
+.env
+*.log
+.DS_Store
+dist/
+
+# Google Cloud
+service-account-key.json
+*-key.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+
+
+
+
