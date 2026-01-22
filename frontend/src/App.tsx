@@ -66,7 +66,7 @@ const ExclamationCircleIcon = ({ className }: { className?: string }) => (
 );
 
 // --- API Client ---
-const API_BASE_URL = 'https://2025-video-storyteller-backend.onrender.com/api';
+const API_BASE_URL = 'https://twoo25-video-storyteller-1.onrender.com/api';
 
 async function uploadVideos(files: File[]): Promise<JobResponse> {
   const formData = new FormData();
